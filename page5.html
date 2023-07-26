@@ -33,13 +33,14 @@
   <body>
     <section class="md:m-auto mx-5 sm:w-screen md:w-3/4 lg:w-1/2">
       <div class="flex justify-between mt-5 mb-5">
-        <i class="bx bx-arrow-back"></i>
+              <i onclick="history.back()" class="bx bx-arrow-back"></i>
         <p>Friend list</p>
         <i class="bx bx-search"></i>
       </div>
 
       <div class="flex flex-col gap-2">
         <article
+        onclick="window.location.href='page9.html'"
           class="flex-row rounded-xl overflow-hidden flex gap-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
         >
           <div class="basis-1/2">
@@ -59,6 +60,7 @@
         </article>
 
         <article
+        onclick="window.location.href='page9.html'"
           class="flex-row rounded-xl overflow-hidden flex gap-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
         >
           <div class="basis-1/2">
@@ -78,6 +80,7 @@
         </article>
 
         <article
+        onclick="window.location.href='page9.html'"
           class="flex-row flex rounded-xl overflow-hidden gap-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
         >
           <div class="basis-1/2">
@@ -113,10 +116,10 @@
       <nav
         class="flex text-2xl justify-evenly items-center border-transparent bg-slate-100 p-2 w-screen lg:w-6/12 md:m-auto right-0 left-0 mt-4 fixed bottom-0"
       >
-        <i class="bx bxs-home text-primary"></i>
-        <i class="bx bxs-heart text-third"></i>
-        <i class="bx bxs-cart text-third"></i>
-        <i class="bx bxs-cog text-third"></i>
+      <i onclick="window.location.href='page3.html'" class="bx bxs-home text-third"></i>
+      <i onclick="window.location.href='page5.html'" class="bx bxs-heart text-primary"></i>
+      <i onclick="window.location.href='page6.html'" class="bx bxs-cart text-third"></i>
+      <i onclick="window.location.href='page10.html'"  class="bx bxs-cog text-third"></i>
       </nav>
     </section>
   </body>

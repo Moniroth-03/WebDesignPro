@@ -31,50 +31,75 @@
     />
   </head>
   <body>
-    <div class="flex justify-between">
-      <i class="bx bx-arrow-back"></i>
-      <p>Cart</p>
-      <i class="bx bx-search"></i>
+    <section class="md:m-auto mx-5 sm:w-screen md:w-3/4 lg:w-1/2">
+      <div class="flex justify-between items-center gap-2 py-4">
+              <i onclick="history.back()" class="bx bx-arrow-back"></i>
+        <p>Cart</p>
+        <i class="bx bx-search"></i>
+      </div>
+
+      <div class="flex flex-col gap-4 mt-4">
+
+
+    <article
+    class="flex-row rounded-xl overflow-hidden flex gap-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+  >
+    <div class="basis-1/2 h-[200px] flex justify-center items-center object-cover">
+      <img çlass="" src="book.jpg" alt="girl" />
     </div>
-    <article>
-      <div>
-        <img src="three masketeers.jpg" alt="The Three Musketeers" />
-        <aside>
-          <p>The Three</p>
-          <h1>Musketeers</h1>
-          <p>39$</p>
-          <div>
-            <i class="bx bxs-star"></i>
-          </div>
-        </aside>
+    <aside class="mt-4 mx-2 flex-1">
+      <div class="flex flex-row justify-between flex-1 w-full">
+        <p>three masketeers</p>
+        <i class='bx bxs-trash-alt' ></i>
       </div>
+      <h1 class="text-slate-400 mb-8 text-sm">$28</h1>
+      <div class="flex text-primary text-xs items-center gap-2">
+        <i class='bx bxs-checkbox-minus text-3xl' ></i>
+        <p class="text-black">1</p>
+        <i class='bx bxs-plus-square text-2xl' ></i>
+      </div>
+    </aside>
+  </article>
+  
+      
+      <article
+      class="flex-row rounded-xl overflow-hidden flex gap-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+    >
+      <div class="basis-1/2 h-[200px] flex justify-center items-center object-cover">
+        <img çlass="" src="book.jpg" alt="girl" />
+      </div>
+      <aside class="mt-4 mx-2 flex-1">
+        <div class="flex flex-row justify-between flex-1 w-full">
+          <p>three masketeers</p>
+          <i class='bx bxs-trash-alt' ></i>
+        </div>
+        <h1 class="text-slate-400 mb-8 text-sm">$28</h1>
+        <div class="flex text-primary text-xs items-center gap-2">
+          <i class='bx bxs-checkbox-minus text-3xl' ></i>
+          <p class="text-black">1</p>
+          <i class='bx bxs-plus-square text-2xl' ></i>
+        </div>
+      </aside>
     </article>
+      </div>
 
-    <article>
-      <div>
-        <img src="1776.jpg" alt="1776" />
-        <aside>
-          <p>1776</p>
-          <h1>$ 19</h1>
-          <div>
-            <i class="bx bxs-star"></i>
-          </div>
-        </aside>
+      <div class="flex flex-col gap-3 mt-12 mb-4 text-slate-400">
+        <div class="flex justify-between">
+          <p>subtotal</p>
+          <p>$43</p>
+        </div>
+        <div class="flex justify-between">
+          <p>shipping</p>
+          <p>$43</p>
+        </div>
+        <div class="flex text-black text-xl justify-between">
+          <p class="text-base">Total</p>
+          <p class=""><span class="text-xs text-slate-400 mr-4">3(items)</span>$153</p>
+        </div>
       </div>
-    </article>
 
-    <article>
-      <div>
-        <img src="call of wild.jpg" alt="The Call of the Wild" />
-        <aside>
-          <p>The Call</p>
-          <h1>of the Wild</h1>
-          <p>$ 29</p>
-          <div>
-            <i class="bx bxs-star"></i>
-          </div>
-        </aside>
-      </div>
-    </article>
+      <button onclick="window.location.href='page6.html'" class="bg-primary text-white flex-1 flex m-auto w-full text-center justify-center items-center p-4 rounded-lg">Checkout</button>
+
+    </section>
   </body>
 </html>

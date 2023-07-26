@@ -12,7 +12,7 @@
           extend: {
             colors: {
               primary: "#FAC7E3",
-              secondary: "#	FEEBED",
+              secondary: "#FEEBED",
               third: " #CCCCCC",
             },
           },
@@ -33,13 +33,22 @@
   <body>
     <section class="md:m-auto mx-5 sm:w-screen md:w-3/4 lg:w-1/2">
       <div class="flex justify-between mt-5 mb-5">
-        <i class="bx bx-arrow-back"></i>
+        <i onclick="history.back()" class="bx bx-arrow-back"></i>
         <p>Chat</p>
         <i class="bx bx-search"></i>
       </div>
-      <div class="w-56 p-2 bg-gray-200 rounded-md rounded-bl-none mt-8">
-        <p>Where do we want to go?</p>
-      </div>
+
+      <article class="w-56 p-2 bg-white rounded-md rounded-bl-none mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <div class="flex gap-2 justify-between">
+          <div class="flex gap-2">
+            <img class="w-6 aspect-square rounded-full" src="dariya.jpg" alt="">
+            <p>ya</p>
+          </div>
+          <div class="flex justify-center items-center"><i class='bx bxs-trash-alt text-primary' ></i></div>
+        </div>
+        <p class="mt-2 text-slate-500 text-sm">Where do we want to go?</p>
+        <p class="text-xs flex-1 mt-2 text-right">7:29AM</p>
+      </article>
 
       <div class="flex justify-end items-end gap-2 p-2">
         <div class="w-44 p-2 bg-primary rounded-br-none rounded-md">
@@ -52,9 +61,17 @@
         </div>
       </div>
 
-      <div class="w-56 p-2 bg-gray-200 rounded-md rounded-bl-none">
-        <p>okay, take ur time</p>
-      </div>
+      <article class="w-56 p-2 bg-white rounded-md rounded-bl-none mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <div class="flex gap-2 justify-between">
+          <div class="flex gap-2">
+            <img class="w-6 aspect-square rounded-full" src="dariya.jpg" alt="">
+            <p>ya</p>
+          </div>
+          <div class="flex justify-center items-center"><i class='bx bxs-trash-alt text-primary' ></i></div>
+        </div>
+        <p class="mt-2 text-slate-500 text-sm">Where do we want to go?</p>
+        <p class="text-xs flex-1 mt-2 text-right">7:29AM</p>
+      </article>
 
       <div class="flex justify-end items-end gap-2 p-2">
         <div class="w-44 p-2 bg-primary rounded-br-none rounded-md">
@@ -67,16 +84,24 @@
         </div>
       </div>
 
-      <div class="w-56 p-2 bg-gray-200 rounded-md rounded-bl-none">
-        <p>deal</p>
-      </div>
+      <article class="w-56 p-2 bg-white rounded-md rounded-bl-none mt-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <div class="flex gap-2 justify-between">
+          <div class="flex gap-2">
+            <img class="w-6 aspect-square rounded-full" src="dariya.jpg" alt="">
+            <p>ya</p>
+          </div>
+          <div class="flex justify-center items-center"><i class='bx bxs-trash-alt text-primary' ></i></div>
+        </div>
+        <p class="mt-2 text-slate-500 text-sm">deal</p>
+        <p class="text-xs flex-1 mt-2 text-right">7:29AM</p>
+      </article>
       <nav
         class="flex text-2xl justify-evenly items-center border-transparent bg-slate-100 p-2 w-screen lg:w-6/12 md:m-auto right-0 left-0 mt-4 fixed bottom-0"
       >
-        <i class="bx bxs-home text-primary"></i>
-        <i class="bx bxs-heart text-third"></i>
-        <i class="bx bxs-cart text-third"></i>
-        <i class="bx bxs-cog text-third"></i>
+      <i onclick="window.location.href='page3.html'" class="bx bxs-home text-primary"></i>
+      <i onclick="window.location.href='page5.html'" class="bx bxs-heart text-third"></i>
+      <i onclick="window.location.href='page6.html'" class="bx bxs-cart text-third"></i>
+      <i onclick="window.location.href='page10.html'"  class="bx bxs-cog text-third"></i>
       </nav>
     </section>
   </body>
