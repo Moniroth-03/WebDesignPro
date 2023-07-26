@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page:Detailed</title>
+    <link rel="stylesheet" href="page.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FAC7E3",
+              secondary: "#	FEEBED",
+              third: " #CCCCCC",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="md:m-auto mx-5 sm:w-screen md:w-3/4 lg:w-1/2">
+      <div class="flex justify-between mt-5 mb-5">
+        <i class="bx bx-arrow-back"></i>
+        <i class="bx bx-search"></i>
+      </div>
+      <img class="w-full h-[350px] object-cover" src="book.jpg" alt="" />
+      <article class="mt-4">
+        <div class="grid justify-between grid-flow-col">
+          <p>Howa to learn</p>
+          <h1>4.0/5 <i class="text-primary bx bxs-star"></i></h1>
+        </div>
+      </article>
+      <h1 class="text-third">$ 12.99</h1>
+      <p class="mt-4 text-slate-400">
+        Trendy, youthful and innovative are what you can expect from the smart
+        fashion for men, women and children from United Colors of Benetton. Cool
+        track pants, stylish T-shirts, colourful backpacks, floral print
+        trousers, canvas boat shoes - browse through the brand's collection on
+        AJIO to explore the latest in high street fashion.
+      </p>
+      <button
+        class="flex flex-1 w-full mt-4 justify-center items-center bg-primary p-3 px-16 rounded-md text-white"
+      >
+        Add to Cart
+      </button>
+    </section>
+  </body>
+</html>

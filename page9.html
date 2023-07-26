@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message</title>
+    <link rel="stylesheet" href="page.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FAC7E3",
+              secondary: "#	FEEBED",
+              third: " #CCCCCC",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="md:m-auto mx-5 sm:w-screen md:w-3/4 lg:w-1/2">
+      <div class="flex justify-between mt-5 mb-5">
+        <i class="bx bx-arrow-back"></i>
+        <p>Chat</p>
+        <i class="bx bx-search"></i>
+      </div>
+      <div class="w-56 p-2 bg-gray-200 rounded-md rounded-bl-none mt-8">
+        <p>Where do we want to go?</p>
+      </div>
+
+      <div class="flex justify-end items-end gap-2 p-2">
+        <div class="w-44 p-2 bg-primary rounded-br-none rounded-md">
+          <p>Hmm... Let me think</p>
+        </div>
+        <div
+          class="text-xs bg-primary rounded-full text-center w-4 h-4 font-bold"
+        >
+          ✓
+        </div>
+      </div>
+
+      <div class="w-56 p-2 bg-gray-200 rounded-md rounded-bl-none">
+        <p>okay, take ur time</p>
+      </div>
+
+      <div class="flex justify-end items-end gap-2 p-2">
+        <div class="w-44 p-2 bg-primary rounded-br-none rounded-md">
+          <p>what abt IFL?</p>
+        </div>
+        <div
+          class="text-xs bg-primary rounded-full text-center w-4 h-4 font-bold"
+        >
+          ✓
+        </div>
+      </div>
+
+      <div class="w-56 p-2 bg-gray-200 rounded-md rounded-bl-none">
+        <p>deal</p>
+      </div>
+      <nav
+        class="flex text-2xl justify-evenly items-center border-transparent bg-slate-100 p-2 w-screen lg:w-6/12 md:m-auto right-0 left-0 mt-4 fixed bottom-0"
+      >
+        <i class="bx bxs-home text-primary"></i>
+        <i class="bx bxs-heart text-third"></i>
+        <i class="bx bxs-cart text-third"></i>
+        <i class="bx bxs-cog text-third"></i>
+      </nav>
+    </section>
+  </body>
+</html>

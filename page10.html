@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting Page light</title>
+    <link rel="stylesheet" href="page.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FAC7E3",
+              secondary: "#	FEEBED",
+              third: " #CCCCCC",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex">
+      <i class="bx bxs-cog"></i>
+      <p>Setting</p>
+    </div>
+    
+    <div class="grid gap-10 p-2 ml-2 mt-2 shadow-lg bg-slate-100">
+      <div class="flex items-center gap-1 p-10 px-9 ">
+        <img src="roth roth.png" class="w-8 h-8 rounded-full" alt="profile user">
+        <p class="font-bold">Roth</p>
+      </div>
+      <div class="text-gray-400 flex items-center  gap-3 mt-2 mx-5">
+          <p>Account Settings</p>
+      </div>
+      <div class="flex items-center  gap-3 mx-5">
+          <i class="bx bx-chevron-right"></i>
+          <p>Edit profile</p>
+      </div>
+      <div class="flex items-center  gap-3 mx-5">
+          
+          <p>Change password</p>
+      </div>
+      <div class="flex items-center gap-3 mx-5">
+          <p>Add a payment method</p>
+      </div>
+      <div class="flex items-center gap-3   rounded-lg mx-5">
+          
+          <p>Push notifications</p>
+      </div>
+      <div class="flex items-center gap-3 mx-5">
+          
+          <p>Dark mode</p>
+      </div>
+      <div class="flex text-gray-400 items-center gap-3 mx-5">
+         <p>More</p>
+      </div>
+      <div class="flex items-center gap-3 mx-5">
+          
+        <p>About us</p>
+      </div>
+      <div class="flex items-center gap-3 mx-5">
+          
+        <p>Privacy policy</p>
+      </div>
+
+    <div class="w-auto h-0.5 bg-third relative -bottom-4"></div>
+
+    <div class="flex gap-4 justify-evenly items-center">
+      <i class="bx bxs-home text-third"></i>
+      <i class="bx bxs-heart text-third"></i>
+      <i class="bx bxs-cart text-primary"></i>
+      <i class="bx bxs-cog text-third"></i>
+    </div>
+  </body>
+</html>

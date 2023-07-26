@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="page.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FAC7E3",
+              secondary: "#	FEEBED",
+              third: " #CCCCCC",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex justify-between">
+      <i class="bx bx-arrow-back"></i>
+      <p>Cart</p>
+      <i class="bx bx-search"></i>
+    </div>
+    <article>
+      <div>
+        <img src="three masketeers.jpg" alt="The Three Musketeers" />
+        <aside>
+          <p>The Three</p>
+          <h1>Musketeers</h1>
+          <p>39$</p>
+          <div>
+            <i class="bx bxs-star"></i>
+          </div>
+        </aside>
+      </div>
+    </article>
+
+    <article>
+      <div>
+        <img src="1776.jpg" alt="1776" />
+        <aside>
+          <p>1776</p>
+          <h1>$ 19</h1>
+          <div>
+            <i class="bx bxs-star"></i>
+          </div>
+        </aside>
+      </div>
+    </article>
+
+    <article>
+      <div>
+        <img src="call of wild.jpg" alt="The Call of the Wild" />
+        <aside>
+          <p>The Call</p>
+          <h1>of the Wild</h1>
+          <p>$ 29</p>
+          <div>
+            <i class="bx bxs-star"></i>
+          </div>
+        </aside>
+      </div>
+    </article>
+  </body>
+</html>

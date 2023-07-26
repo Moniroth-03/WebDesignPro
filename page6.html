@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories Page</title>
+    <link rel="stylesheet" href="page.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FAC7E3",
+              secondary: "#	FEEBED",
+              third: " #CCCCCC",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="md:m-auto mx-5 sm:w-screen md:w-3/4 lg:w-1/2">
+      <div class="flex justify-between mt-5 mb-5">
+        <i class="bx bx-arrow-back"></i>
+        <p>Market Place</p>
+        <i class="bx bx-search"></i>
+      </div>
+      <div class="relative flex w-full mb-8">
+        <button class="flex-1 border-b-2 border-primary border-">books</button>
+        <button class="flex-1">women</button>
+        <button class="flex-1">Kids</button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-6">
+        <article
+          class="rounded-xl bg-primary shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col col-span-2 h-[200px] text-red-50"
+        >
+          <div
+            class="text-center absolute left-12 flex-col h-1/4 mb-8 flex justify-center items-center"
+          >
+            <h3 class="uppercase font-extrabold text-2xl">Season Sale</h3>
+            <p class="uppercase">up to 25% OFF</p>
+            <span class="text-xs mt-6">Lorem ipsum.</span>
+          </div>
+        </article>
+        <article
+          class="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col"
+        >
+          <img
+            src="https://t4.ftcdn.net/jpg/01/66/55/01/360_F_166550191_hEVqAvFjIbRMZNDTaBoi0j7fX7ynPS5x.jpg"
+            alt=""
+            class="h-3/4"
+          />
+          <p class="text-center h-1/4 mb-8 flex justify-center items-center">
+            Science
+          </p>
+        </article>
+        <article
+          class="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col"
+        >
+          <img
+            src="https://t4.ftcdn.net/jpg/01/66/55/01/360_F_166550191_hEVqAvFjIbRMZNDTaBoi0j7fX7ynPS5x.jpg"
+            alt=""
+            class="h-3/4"
+          />
+          <p class="text-center h-1/4 mb-8 flex justify-center items-center">
+            Science
+          </p>
+        </article>
+        <article
+          class="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col"
+        >
+          <img
+            src="https://t4.ftcdn.net/jpg/01/66/55/01/360_F_166550191_hEVqAvFjIbRMZNDTaBoi0j7fX7ynPS5x.jpg"
+            alt=""
+            class="h-3/4"
+          />
+          <p class="text-center h-1/4 mb-8 flex justify-center items-center">
+            Science
+          </p>
+        </article>
+        <article
+          class="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col"
+        >
+          <img
+            src="https://t4.ftcdn.net/jpg/01/66/55/01/360_F_166550191_hEVqAvFjIbRMZNDTaBoi0j7fX7ynPS5x.jpg"
+            alt=""
+            class="h-3/4"
+          />
+          <p class="text-center h-1/4 mb-8 flex justify-center items-center">
+            Science
+          </p>
+        </article>
+        <article
+          class="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col"
+        >
+          <img
+            src="https://t4.ftcdn.net/jpg/01/66/55/01/360_F_166550191_hEVqAvFjIbRMZNDTaBoi0j7fX7ynPS5x.jpg"
+            alt=""
+            class="h-3/4"
+          />
+          <p class="text-center h-1/4 mb-8 flex justify-center items-center">
+            Science
+          </p>
+        </article>
+        <article
+          class="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col"
+        >
+          <img
+            src="https://t4.ftcdn.net/jpg/01/66/55/01/360_F_166550191_hEVqAvFjIbRMZNDTaBoi0j7fX7ynPS5x.jpg"
+            alt=""
+            class="h-3/4"
+          />
+          <p class="text-center h-1/4 mb-8 flex justify-center items-center">
+            Science
+          </p>
+        </article>
+      </div>
+
+      <nav
+        class="flex text-2xl justify-evenly items-center border-transparent bg-slate-100 p-2 w-screen lg:w-6/12 md:m-auto right-0 left-0 mt-4 fixed bottom-0"
+      >
+        <i class="bx bxs-home text-primary"></i>
+        <i class="bx bxs-heart text-third"></i>
+        <i class="bx bxs-cart text-third"></i>
+        <i class="bx bxs-cog text-third"></i>
+      </nav>
+    </section>
+  </body>
+</html>
